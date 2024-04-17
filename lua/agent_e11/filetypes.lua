@@ -1,0 +1,14 @@
+-- Go template files
+--vim.api.nvim_create_autocmd(
+--    {
+--        "BufNewFile",
+--        "BufRead",
+--    },
+--    {
+--        pattern = "*.tmpl.html,*.tmpl.md,*.tmpl.yaml,*.tmpl.yml",
+--        callback = function()
+--            local buf = vim.api.nvim_get_current_buf()
+--            vim.api.nvim_buf_set_option(buf, "filetype", "gotmpl")
+--        end
+--    }
+--)
